@@ -1,0 +1,68 @@
+.service{
+    width: 100%;
+    color: #fff;
+    padding: 30px 5%;
+    background-color: #000000b8;
+    text-align: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 70px;
+}
+
+h2{
+    font-size: 35px;
+   line-height: 100px;
+
+   
+   
+   font-family: 'Orbitron', sans-serif;
+   
+   letter-spacing: 2px;
+   
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px #ffffff;
+    transform: scale(1.1);
+    transition: all 0.1s linear;
+    
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 10px 10px 20px #ffffff;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    
+}
+
+.card p{
+   font-family: 'Orbitron', sans-serif;
+
+}
+
+.card i{
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width:1074px) {
+    .cards{
+        grid-template-columns: repeat(3,auto);
+    }
+}

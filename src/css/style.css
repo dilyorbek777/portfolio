@@ -1,0 +1,161 @@
+@media (max-width:1074px) {    
+    .cards.contact{
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (max-width:1025px) {
+    .skills {
+        width: 60%;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .skills {
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 85%;
+    }
+
+    .right p {
+        word-spacing: 7px;
+    }
+
+}
+
+
+
+@media (max-width:920px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+        justify-content: center;
+    }
+
+    .about .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right h2 {
+        text-align: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .right p {
+        text-align: center;
+    }
+}
+
+@media (max-width:771px) {
+    .cards {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .right p {
+        word-spacing: 8px;
+    }
+}
+
+@media (max-width:580px) {
+    .skills .skill {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+
+    .skill .name-per {
+        width: 85%;
+    }
+
+    .skill p {
+        width: 100%;
+        text-align: start;
+    }
+
+    .wide {
+        width: 85%;
+    }
+}
+
+@media (max-width:505px) {
+    .right p {
+        text-align: start;
+        font-size: 18px;
+        word-spacing: 5px;
+    }
+
+    .cards {
+        grid-template-columns: auto;
+    }
+
+    .card {
+        width: 270px;
+        height: 270px;
+        border-radius: 25px;
+        border: 1px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        box-shadow: 10px 10px 20px #ffffff;
+        cursor: pointer;
+        transition: all 0.1s linear;
+    }
+    .card i{
+        font-size: 50px;
+    }
+    .card p{
+        font-size: 20px;
+    }
+    .cards.contact{
+        grid-template-columns:  auto;
+    }
+}
+
+@media (max-width:420px) {
+    .left h2{
+        font-size: 40px;
+    }
+    .about img{
+        width: 80%;
+    }
+    .logo{
+        font-size: 22px;
+    }
+    .fa-bars{
+        font-size: 22px;
+    }
+    .right p{
+        font-size: 16px;
+        word-spacing: 2px;
+    }
+}
+@media (max-width:340px) {
+    .left h2{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,20 @@
+const navbar = document.getElementById("navbar");
+const sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.scrollY >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+const text = document.querySelector('.text'); text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
+
+
+const element = document.querySelectorAll('span');
+for (let i= 0; i < element.length; i++) {
+  element[i].style.transform= "rotate("+i*18 +"deg)"
+}
+

@@ -1,0 +1,75 @@
+.skills-page {
+    width: 100%;
+    padding: 30px 5%;
+    background: #000000b8;
+    color: #fff;
+    text-align: center;
+}
+
+.skills-page * {
+    font-family: 'Bruno Ace SC', cursive;
+
+}
+
+.skills-page h2 {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 40px;
+    line-height: 200px;
+}
+
+.skills {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name-per {
+    display: flex;
+}
+
+.wide {
+    width: 70%;
+    border-radius: 50px;
+    height: 20px;
+    background-color: #ffffff95;
+}
+
+.wide .inner {
+    width: 80%;
+    height: 100%;
+    background-color: #2b34e294;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #2b34e2;
+}
+
+.skill:nth-child(2) .wide .inner {
+    width: 91%;
+
+}
+
+.skill:nth-child(3) .wide .inner {
+    width: 63%;
+}
+
+.skill:nth-child(4) .wide .inner {
+    width: 47%;
+}
+
+.skill:nth-child(5) .wide .inner {
+    width: 10%;
+}
+
+.skill:nth-child(6) .wide .inner {
+    width: 12%;
+}
